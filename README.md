@@ -1,4 +1,4 @@
-# Spotify-clone
+# Discord-clone
 //राधे राधे
 <br/>
 //dp_1309
