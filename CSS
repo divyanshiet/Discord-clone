@@ -1,0 +1,429 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: white;
+}
+#wrapper
+{
+    position: relative;
+    height:100vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+font-face {
+    font-family: ggsansnormal;
+    src: url(./discord-clone-images-fonts/fonts/gg-sans/ggsans-Normal.ttf);
+}
+@font-face {
+    font-family: ggsansbold;
+    src: url(./discord-clone-images-fonts/fonts/gg-sans/ggsans-semiBold.ttf);
+}
+@font-face {
+    font-family: ggsansmedium;
+    src: url(./discord-clone-images-fonts/fonts/gg-sans/ggsans-Medium.ttf);
+}
+@font-face {
+    font-family: ggsanssemibold;
+    src: url(./discord-clone-images-fonts/fonts/gg-sans/ggsans-Bold.ttf);
+}
+@font-face {
+    font-family: gintonord600;
+    src: url(./discord-clone-images-fonts/fonts/Ginto-Nord/Ginto-Nord-600.woff);
+}
+.abc
+{
+    position: sticky;
+}
+nav
+{
+    position: sticky;
+    background-color: rgb(77, 77, 250);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:auto;
+    max-width: 1550px;
+    height: 72px;   
+}
+.list
+{
+    display: flex;
+    list-style: none;
+    gap:40px;
+    font-family: ggsansbold;
+    color:white;
+    @media(max-width:1022px)
+    {
+        display:none;
+        /* font-size: 23px; */
+    }
+}
+.button2
+{
+    @media(min-width:1022px)
+    {
+        display: none;
+    }
+}
+.b1 a button
+{     
+        padding:7px;
+        border: 0;
+        color: black;
+        border-radius: 20px; 
+        font-family: ggsansmedium;
+        font-size: 14px;
+        box-shadow: 0px 0px;
+}
+.b1 a button:hover{
+    transition: 0.5s ease;
+    cursor: pointer;
+    /* color:rgb(113, 113, 251); */
+    box-shadow: 0 10px 14px 0 rgba(37, 36, 36, 0.24),0 15px 40px 0 rgba(37,36,36,0.24);
+    
+}
+a{
+    text-decoration: none;
+}
+/* to apply any property on section  
+you must need to give content or specify height to it*/
+section{
+    background-color: rgb(77, 77, 250);
+    position: relative;
+    width: 100%;  
+    height: 100%;   
+}
+.img1
+{
+    position: absolute;
+    height: 100%;
+    width: 900px;
+    scale: 3.35;
+    /* z-index: 10; */
+    bottom: 0; 
+     top: auto;
+}
+.img2
+{
+    position: absolute;
+    bottom: 0;
+    left: -15%;
+}
+.img3
+{
+    position: absolute;
+    bottom: 0;
+    left: 72%;
+}
+.cont
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 21%;
+    top: 25%;
+    gap: 30px;
+}  
+.imag
+{
+    font-family: gintonord600;
+    font-size: 52px;
+}
+.where
+{
+    font-family: ggsansmedium;
+    font-size: 20px;
+}  
+.download
+{
+    display: flex;
+    gap: 50px;
+    
+}
+.button11{
+    width:250px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+    font-family: ggsansmedium;
+    font-size: 20px;
+}
+.for button:hover{
+    transition: 1s ease;
+    cursor: pointer;
+    color: rgb(113, 113, 251);
+    box-shadow: 0 10px 14px 0 rgba(37, 36, 36, 0.24),0 15px 40px 0 rgba(37,36,36,0.24);
+}
+.form
+{
+    background-color: black;
+
+}
+.forw
+{
+    background-color: white;
+    color: black;
+}
+.section2
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+    bottom: auto;
+}
+.part1
+{
+    font-family: ggsanssemibold;
+    font-size: 45px;
+    color: black;
+    margin-left: -21%;
+}
+ .part2
+{
+    font-family: ggsansmedium;
+    color: black;
+    /* font-weight: 400; */
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -5%;
+}
+.sect2cont
+{
+    display: flex;
+    flex-direction: column;
+}
+.section3
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 35%;
+    bottom: auto;
+    background-color: rgb(236, 236, 236);
+}
+.image1
+{
+    position: relative;
+    margin-top: 4%;
+}
+.part1s3
+{
+    font-family: ggsanssemibold;
+    font-size: 45px;
+    color: black;
+    margin-left: -27%;
+}
+ .part2s3
+{
+    font-family: ggsansmedium;
+    color: black;
+    /* font-weight: 400; */
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -5%;
+}
+.section4
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 47%;
+    bottom: auto;
+}
+.part1s4
+{
+    font-family: ggsanssemibold;
+    font-size: 45px;
+    color: black;
+    margin-left: -30%;
+}
+ .part2s4
+{
+    font-family: ggsansmedium;
+    color: black;
+    /* font-weight: 400; */
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -5%;
+}
+.sect4cont
+{
+    display: flex;
+    flex-direction: column;
+}
+.section5
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 62%;
+    padding-bottom: 5%;
+    background-color: rgb(236, 236, 236);
+}
+.part1s5
+{
+    font-family: gintonord600;
+    font-size: 35px;
+    color: black;
+    margin-left: -14%;
+}
+.part2s5
+{
+    font-family: ggsansmedium;
+    color: black;
+    /* font-weight: 400; */
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: -5%;
+}
+.sect5cont
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    gap: 20px;
+}    
+.part11s5
+{
+  font-family: ggsanssemibold;
+  color: black;
+  font-size: 32px;
+  margin-left: 12%;
+  margin-top: -7%;
+}
+.buttonsec5{
+    width:250px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+    font-family: ggsansmedium;
+    font-size: 20px;
+    background-color:rgb(113, 113, 251);
+    margin-left: 27%;
+}
+.but button:hover{
+    transition: 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 10px 14px 0 rgba(37, 36, 36, 0.24),0 15px 40px 0 rgba(37,36,36,0.24);  
+}
+.footer
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 82%;
+    width: auto;
+    gap: 25px;
+    height: 300px;
+    background-color: rgb(28, 28, 30);
+}
+.footer1
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -10%;
+    width: auto;
+    height: 300px;
+    background-color: rgb(28, 28, 30);
+}
+li{
+    list-style: none;
+    padding: 8px;
+}
+.product, .companies, .policies, .resources
+{
+    padding: 8px;
+    font-family: ggsansnormal;
+    color:rgb(113, 113, 251); ;
+}
+.footer2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 10%;
+}
+.logo1
+{
+    margin-left: 5.7%;
+}
+.b2 button
+{
+    background-color: rgb(113, 113, 251);
+    
+}
+.b2{
+    margin-right: 6.4%;
+}
+hr{
+    background-color: rgb(77, 77, 250);
+    width: 87.8%;
+    margin-left: 5.8%;
+}
+.links
+{
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+}
+
+/* media query */
+.img2{
+    @media(max-width: 1100px)
+    {
+        display: none;
+    }
+}
+.img1{
+    @media(max-width: 1134px)
+    {
+        width: 796px;
+    }
+}
+.cont{
+    @media(max-width: 1100px)
+    {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -15%;
+    }
+}
+.where{
+    @media(max-width: 1100px)
+    {
+        font-size: 18px;
+        margin-left: -15%;
+    }
+    @media(max-width: 723px)
+    {
+        font-size: 16px;       
+    }
+}
+.download
+{
+    @media(max-width: 800px)
+    {
+        display: flex;
+        flex-direction: column;
+    } 
+}
+.img3{
+    @media(max-width: 1100px)
+    {
+        margin-left: -45%;
+    }
+}
